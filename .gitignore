@@ -1,0 +1,53 @@
+# Ignore all database files
+*.db
+*.sqlite3
+ReadingWriting/donors.db
+ReadingWriting/donors_test.db
+ReadingWriting/donors_choose.db
+
+# Ignore all data files
+*.csv
+*.json
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+.tmp/
+*.tmp
+*.temp
+
+# Ignore OS-specific files
+.env
+.env.local
+
+# Ignore large model files (if needed, can adjust)
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Ignore notebook execution artifacts
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
