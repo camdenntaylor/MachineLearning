@@ -12,6 +12,9 @@ ReadingWriting/donors_choose.db
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+# Ignore Modeling_Midterm directory
+Modeling_Midterm/
+
 # Ignore Python cache files
 __pycache__/
 *.py[cod]*.pyo
